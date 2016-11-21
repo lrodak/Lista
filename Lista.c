@@ -13,6 +13,7 @@ main(){
 		ilosc[lancuch[i]]++;
 	}
 	for (i = 0; i < 256; i++) {
+		if (ilosc[i] != 0)
 		printf("%c - %d\n", i, ilosc[i]);
 	}
 	
